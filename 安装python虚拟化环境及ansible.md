@@ -1,5 +1,15 @@
 # 安装python虚拟化环境及ansible
+<!-- TOC -->
 
+- [安装python虚拟化环境及ansible](#安装python虚拟化环境及ansible)
+    - [安装 pip](#安装-pip)
+    - [安装python多版本管理工具pyenv](#安装python多版本管理工具pyenv)
+    - [安装python虚拟化管理工具virtualenv](#安装python虚拟化管理工具virtualenv)
+    - [使用pyenv安装python3.7](#使用pyenv安装python37)
+    - [使用virtualenv安装python虚拟化环境](#使用virtualenv安装python虚拟化环境)
+    - [安装ansible](#安装ansible)
+
+<!-- /TOC -->
 ## 安装 pip 
 
 ```bash
