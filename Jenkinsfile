@@ -4,7 +4,6 @@ podTemplate(label: label, containers: [
   containerTemplate(name: 'maven', image: 'maven:3.6-alpine', command: 'cat', ttyEnabled: true),
   containerTemplate(name: 'jnlp', image: 'cnych/jenkins:jnlp', command: 'cat', ttyEnabled: true)
 ], volumes: [
-  hostPathVolume(mountPath: '/root/.m2', hostPath: '/var/run/m2'),
   hostPathVolume(mountPath: '/home/jenkins/.kube', hostPath: '/root/.kube'),
   hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')
 ]) {
